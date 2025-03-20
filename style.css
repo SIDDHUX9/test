@@ -1,3 +1,9 @@
-body{
-    background-color: blue;
+* {
+    color: rgb(93, 0, 255);
+}
+
+/* styles.css */
+
+div {
+    color: rgb(255, 122, 6);
 }
