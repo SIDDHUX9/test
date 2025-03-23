@@ -1,9 +1,67 @@
 * {
-    color: rgb(93, 0, 255);
+  padding: 0;
+  margin: 0;
 }
 
-/* styles.css */
+.header,
+.footer {
+  background-color: #1f2937;
+  /* Light background */
+  padding: 10px 20px;
+  /* Padding around the header */
+  display: flex;
+  /* Use Flexbox for layout */
+  justify-content: space-between;
+  /* Space between logo and nav */
+  align-items: center;
+  height: 40px;
+  color: aliceblue;
 
-div {
-    color: rgb(255, 122, 6);
+}
+
+
+ul {
+  list-style: none;
+  /* Remove bullet points */
+  display: flex;
+  /* Make the list a flex container */
+  gap: 20px;
+  /* Add space between links */
+}
+
+ul a {}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.content1 div {
+  background-color: #1f2937;
+  flex: 1;
+  align-items: center;
+  color: aliceblue;
+}
+
+#left-side {
+  padding-left: 100px;
+  text-align: center;
+  align-items: center;
+
+}
+
+#right-side {
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
 }
